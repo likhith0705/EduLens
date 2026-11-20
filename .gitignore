@@ -1,0 +1,70 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+backend/venv/
+backend/venv_face/
+
+# Python environment configuration
+.env
+.env.*
+!.env.example
+
+# Python backups
+*.backup
+*.bak
+
+# =========================
+# Sensitive credentials
+# =========================
+firebase-service-account.json
+service-account.json
+firebase-adminsdk*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================
+# Flutter
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# =========================
+# Android
+# =========================
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# =========================
+# IDE
+# =========================
+.idea/
+.vscode/
+*.iml
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log

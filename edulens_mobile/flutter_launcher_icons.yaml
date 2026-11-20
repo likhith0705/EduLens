@@ -1,0 +1,7 @@
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/college_logo.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/college_logo.jpg"
